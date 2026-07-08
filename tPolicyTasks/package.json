@@ -1,0 +1,19 @@
+{
+  "name": "node_sample_ssh_connection",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mssql": "^12.5.5",
+    "ssh2": "^1.17.0"
+  }
+}
