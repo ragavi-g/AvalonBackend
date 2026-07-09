@@ -24,7 +24,7 @@ jobs:
           node-version: '24.x'
 
       - name: Install dependencies
-        working-directory: ./vGLMasterPolicies
+        working-directory: ./vGLUnderwriting
         run: npm install
 
       - name: Upload artifact for deployment job
